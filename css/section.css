@@ -1,0 +1,99 @@
+.section {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: justify;
+}
+
+.section__h2 {
+    color: rgb(31, 79, 134);
+}
+
+.section__h2--contactBoxPadding {
+    padding-left: 20px;
+}
+
+.section__tableContainer {
+    overflow-x: auto;
+    padding: 0 10px;
+}
+
+.section__table {
+    max-width: 1000px;
+    border-spacing: 0;
+    width: 100%;
+    margin: 0 0 40px;
+    box-shadow: 5px 5px 10px -6px #5B5B5B;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.section__tableCell {
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.section__tableCell--header {
+    background-color: rgb(221, 221, 221);
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.section__tableCell--topLeft {
+    border-top-left-radius: 10px;
+}
+
+.section__tableCell--topRight {
+    border-top-right-radius: 10px;
+}
+
+.section__tableCell--bottomLeft {
+    border-bottom-left-radius: 10px;
+}
+
+.section__tableCell--bottomRight {
+    border-bottom-right-radius: 10px;
+}
+
+.section__tableRow:hover {
+    background-color: rgb(221, 221, 221);
+}
+
+.section--contactBox {
+    background-color: rgb(221, 221, 221);
+    max-width: 940px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px -6px #5B5B5B;
+}
+
+.section__contactInsideBox {
+    display: inline-block;
+}
+
+.section__contactDetail {
+    width: 100px;
+}
+
+.section__list {
+    list-style-type: square;
+}
+
+.section__aside {
+    border: 1px solid grey;
+    float: right;
+    padding: 0 20px 20px 20px;
+    margin: 37px 10px 10px 10px;
+    background-color: white;
+    box-shadow: 5px 5px 10px -6px #5B5B5B;
+    border-radius: 10px;
+}
+
+.section__aside:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}

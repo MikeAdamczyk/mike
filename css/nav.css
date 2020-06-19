@@ -1,0 +1,38 @@
+.nav {
+    text-align: center;
+}
+
+.nav__list {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+    display: inline-block;
+}
+
+.nav__li {
+    float: left;
+    padding-bottom: 20px;
+}
+
+.nav__link {
+    background-color: rgb(31, 79, 134);
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    margin: 0 2px;
+    border-radius: 20px;
+    display: block;
+}
+
+.nav__link:hover {
+    background-color: rgb(172, 15, 46);
+    outline: none;
+}
+
+.nav__link:active {
+    background-color: rgb(60, 126, 46);
+}
+
+.nav__link:focus {
+    outline: 2px solid rgb(31, 79, 134);
+}

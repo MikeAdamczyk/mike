@@ -1,0 +1,13 @@
+.header {
+    width: 55%;
+    text-align: center;
+    margin: 20px auto;
+    border-bottom: 2px dotted grey;
+    font-size: 15px;
+}
+
+.header__photo {
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px -6px #5B5B5B;
+}

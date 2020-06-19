@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Michał Adamczyk - Java/FullStack Developer with JavaScript, HTML, CSS skills">
+    <title>Michał Adamczyk CV</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <!-- <link href="css/form.css" rel="stylesheet"> -->
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/global.css" rel="stylesheet">
+    <link href="css/nav.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="css/container.css" rel="stylesheet">
+    <link href="css/link.css" rel="stylesheet">
+
+
+    <script defer src="js/script.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <button class="container__buttonDarkMode">Dark🌛</button>
+
+        <header class="header">
+            <img class="header__photo" src="images/mike-cv.jpeg" alt="Michał Adamczyk">
+            <h1>Michał Adamczyk Resume</h1>
+        </header>
+
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__li">
+                    <a class="nav__link" href="#o-mnie">O mnie</a>
+                </li>
+
+                <li class="nav__li">
+                    <a class="nav__link" href="#doswiadczenie">Doświadczenie</a>
+                </li>
+
+                <li class="nav__li">
+                    <a class="nav__link" href="#stack-technologiczny">Stack technologiczny</a>
+                </li>
+
+                <li class="nav__li">
+                    <a class="nav__link" href="#kontakt">Kontakt</a>
+                </li>
+
+                <li class="nav__li">
+                    <a class="nav__link" href="#pelne-cv">Pełne CV</a>
+                </li>
+            </ul>
+        </nav>
+
+        <main>
+            <section id="o-mnie" class="section">
+                <h2 class="section__h2">O mnie w kilku zdaniach</h2>
+                <p><em>Cześć!</em></p>
+                <p>Nazywam się Michał i bardzo serdecznie <em>Witam Cię</em> na mojej stronie 😃<br>
+                    Jestem ciekawym świata i żądnym nowych wyzwań mężem i ojcem dwóch wspaniałych synów 😊</p>
+                <p>Mam <strong>7-miesięczne komercyjne doświadczenie w programowaniu</strong> Java oraz JavaScript
+                    (głównie
+                    lambdy na AWS). Wielka satysfakcja płynąca z kreowania nowych funkcjonalności przy pomocy kodu oraz
+                    konieczność
+                    nieustającego rozwoju to niewątpliwe zalety branży IT, która każdego dnia wciąga mnie coraz
+                    bardziej.</p>
+                <p>Doświadczenie w projektowaniu odzieży i akcesoriów spowodowały, że <strong>moje zainteresowania
+                        skierowały się z pierwotnie praktykowanego backendu w stronę JavaScriptu i technologii
+                        frontendowych.</strong>
+                </p>
+            </section>
+
+
+            <section id="doswiadczenie" class="section">
+
+                <h2 class="section__h2">Doświadczenie zawodowe</h2>
+                <p>Od 11 lat wraz z żoną prowadzimy firmę odzieżową <a class="link" target="_blank"
+                        rel="noreferrer noopener" href="http://www.costamoda.pl"
+                        title="Strona domowa firmy COSTA MODA">COSTA MODA</a>. Rynek tekstylny w ostatnich latach mocno
+                    się zmienił i ze
+                    sprzedaży detalicznej oraz hurtowej przeszliśmy do projektowania, organizacji produkcji i
+                    importu
+                    towarów z Azji (Chiny, Indie, Bangladesz) głównie pod zamówienia polskich klientów.</p>
+                <p>Zmiana strategii biznesowej pozwoliła mi uzyskać więcej czasu na rozwój i podjęcie wyzwań stojących w
+                    branży
+                    IT. Swoją ciekawość związaną z programowaniem zacząłem wzbogacać o <strong>aktualną wiedzę i
+                        doświadczenie</strong> wynikające z
+                    pracy dla klientów z Polski i zagranicy.</p>
+                <p>Pierwsze szlify zdobyłem w projekcie open-source <a class="link" target="_blank"
+                        rel="noreferrer noopener" href="http://www.elenx.net" title="Strona domowa projektu ElenX">ElenX
+                        Group</a>, a następnie <strong>rozwijałem się
+                        podczas praktyk i
+                        pracy</strong> w firmie <a class="link" target="_blank" rel="noreferrer noopener"
+                        href="http://www.clurgo.com" title="Strona domowa firmy Clurgo">Clurgo</a>.</p>
+            </section>
+
+            <section id="stack-technologiczny" class="section">
+
+                <h2 class="section__h2">Stack technologiczny</h2>
+
+                <div class="section__tableContainer">
+
+                    <table class="section__table">
+                        <caption>
+                            <h3>Wykorzystywane przeze mnie technologie i narzędzia</h3>
+                        </caption>
+
+                        <tr>
+                            <th class="section__tableCell section__tableCell--header section__tableCell--topLeft"
+                                scope="col">Specyfikacja</th>
+                            <th class="section__tableCell section__tableCell--header" scope="col">Technologie</th>
+                            <th class="section__tableCell section__tableCell--header" scope="col">Narzędzia</th>
+                            <th class="section__tableCell section__tableCell--header section__tableCell--topRight"
+                                scope="col">Poziom</th>
+                        </tr>
+
+
+                        <tr class="section__tableRow">
+                            <th class="section__tableCell section__tableCell--header" scope="row">Front-end</th>
+                            <td class="section__tableCell">JavaScript, HTML, CSS</td>
+                            <td class="section__tableCell">Visual Studio Code, Brackets, Photoshop, Corel, etc.</td>
+                            <td class="section__tableCell">junior <br>(mid dla Photoshop/Corel)</td>
+                        </tr>
+
+                        <tr class="section__tableRow">
+                            <th class="section__tableCell section__tableCell--header" scope="row">Back-end</th>
+                            <td class="section__tableCell">Java, Spring Boot, SQL, Maven, Gradle, Docker, AWS Lambda,
+                                Lombok
+                            </td>
+                            <td class="section__tableCell">IntelliJ IDEA, pgAdmin</td>
+                            <td class="section__tableCell">junior</td>
+                        </tr>
+
+                        <tr class="section__tableRow">
+                            <th class="section__tableCell section__tableCell--header section__tableCell--bottomLeft"
+                                scope="row">OS/Tools</th>
+                            <td class="section__tableCell" colspan="2">Linux, macOS, Win, Git, Jira, Redmine, Jenkins
+                            </td>
+                            <td class="section__tableCell section__tableCell--bottomRight">junior/mid</td>
+                        </tr>
+
+                    </table>
+
+                </div>
+
+            </section>
+
+            <section class="section section--contactBox">
+
+                <div class="section__contactInsideBox">
+                    <h2 id="kontakt" class="section__h2 section__h2--contactBoxPadding">Kontakt</h2>
+
+                    <ul class="section__list">
+                        <li>
+                            <table>
+                                <tr>
+                                    <td class="section__contactDetail">LinkedIn:</td>
+                                    <td><a class="link" target="_blank" rel="noreferrer noopener"
+                                            href="https://www.linkedin.com/in/michał-adamczyk-534503139/"
+                                            title="Profil zawodowy Michał Adamczyk na LinkedIn">Michał Adamczyk -
+                                            profil</a></td>
+                                </tr>
+                            </table>
+                        </li>
+
+                        <li>
+
+                            <table>
+                                <tr>
+                                    <td class="section__contactDetail">e-mail:</td>
+                                    <td><a class="link" href="mailto:hello@codeman.it"
+                                            title="Wyślij do mnie wiadomość e-mail">hello@codeman.it</a></td>
+                                </tr>
+                            </table>
+                        </li>
+                        <li>
+
+                            <table>
+                                <tr>
+                                    <td class="section__contactDetail">tel:</td>
+                                    <td><a class="link" href="tel:+48502366445" title="Zadzwoń do mnie">+48
+                                            502 366 445</a></td>
+                                </tr>
+                            </table>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <aside class="section__aside">
+                    <h3 id="pelne-cv">Curriculum vitae</h3>
+                    <a class="link" href="images/example-cv.pdf" download="michal-adamczyk-cv.pdf"
+                        title="Pobierz pełne CV w formacie .pdf">Pobierz pełne CV</a>
+                </aside>
+
+            </section>
+
+            <section class="formSection">
+
+                <form class="form" action="https://postman-echo.com/post" method="POST" enctype="multipart/form-data">
+                    <p>Pola wymagane oznaczone są *</p>
+
+                    <fieldset class="form__fieldset">
+                        <legend class="form__legend">Imię i nazwisko</legend>
+                        <p>
+                            <label>
+                                <span class="form__labelText">Imię* :</span><input class="form__field" name="firstName"
+                                    minlength="2" maxlength="10" required>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <span class="form__labelText">Nazwisko* :</span><input class="form__field"
+                                    name="lastName" required>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <span class="form__labelText">Kod pocztowy :</span><input class="form__field"
+                                    name="postalCode" pattern="[0-9]{2}-[0-9]{3}">
+                            </label>
+                        </p>
+                    </fieldset>
+
+
+                    <fieldset class="form__fieldset">
+                        <legend class="form__legend">Podaj wzrost i hasło</legend>
+                        <p>
+                            <label>
+                                <span class="form__labelText">Wzrost : </span><input class="form__field" type="number"
+                                    name="height">
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <span class="form__labelText">Hasło* :</span><input class="form__field" type="password"
+                                    name="password" required>
+                            </label>
+                        </p>
+                        <p>
+                            <span class="form__labelText">Wgraj plik : </span><input class="form__field" type="file"
+                                name="cv">
+                        </p>
+                    </fieldset>
+
+                    <p>
+                        <label>
+                            <span class="form__labelText">Data urodzin : </span>
+                            <input class="form__field js-date" name="birthDate">
+                        </label>
+                    </p>
+
+                    <p>
+                        <button class="form__button">Wyślij!</button>
+                    </p>
+
+                </form>
+
+            </section>
+        </main>
+
+        <footer class="footer">
+            © Copyright by Michał Adamczyk 2020. Wszelkie prawa zastrzeżone!&nbsp;
+            <a class="link" href="#top">Powrót na górę ⤴</a>
+        </footer>
+
+    </div>
+
+    <!-- <script>
+        flatpickr(".js-date", {});
+    </script> -->
+
+</body>
+
+</html>
