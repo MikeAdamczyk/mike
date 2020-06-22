@@ -7,7 +7,7 @@
     <meta name="description" content="Michał Adamczyk - Java/FullStack Developer with JavaScript, HTML and CSS skills">
     <title>Michał Adamczyk CV</title>
     <link href="images/mike-icon.png" rel="icon">
-    <meta property="og:image" content="images/share.png">
+    <meta property="og:image" content="images/share_photo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
         integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
@@ -206,69 +206,6 @@
                 </aside>
 
             </section>
-
-            <section class="formSection">
-
-                <form class="form" action="https://postman-echo.com/post" method="POST" enctype="multipart/form-data">
-                    <p>Pola wymagane oznaczone są *</p>
-
-                    <fieldset class="form__fieldset">
-                        <legend class="form__legend">Imię i nazwisko</legend>
-                        <p>
-                            <label>
-                                <span class="form__labelText">Imię* :</span><input class="form__field" name="firstName"
-                                    minlength="2" maxlength="10" required>
-                            </label>
-                        </p>
-                        <p>
-                            <label>
-                                <span class="form__labelText">Nazwisko* :</span><input class="form__field"
-                                    name="lastName" required>
-                            </label>
-                        </p>
-                        <p>
-                            <label>
-                                <span class="form__labelText">Kod pocztowy :</span><input class="form__field"
-                                    name="postalCode" pattern="[0-9]{2}-[0-9]{3}">
-                            </label>
-                        </p>
-                    </fieldset>
-
-
-                    <fieldset class="form__fieldset">
-                        <legend class="form__legend">Podaj wzrost i hasło</legend>
-                        <p>
-                            <label>
-                                <span class="form__labelText">Wzrost : </span><input class="form__field" type="number"
-                                    name="height">
-                            </label>
-                        </p>
-                        <p>
-                            <label>
-                                <span class="form__labelText">Hasło* :</span><input class="form__field" type="password"
-                                    name="password" required>
-                            </label>
-                        </p>
-                        <p>
-                            <span class="form__labelText">Wgraj plik : </span><input class="form__field" type="file"
-                                name="cv">
-                        </p>
-                    </fieldset>
-
-                    <p>
-                        <label>
-                            <span class="form__labelText">Data urodzin : </span>
-                            <input class="form__field js-date" name="birthDate">
-                        </label>
-                    </p>
-
-                    <p>
-                        <button class="form__button">Wyślij!</button>
-                    </p>
-
-                </form>
-
-            </section>
         </main>
 
         <footer class="footer">
@@ -277,10 +214,6 @@
         </footer>
 
     </div>
-
-    <!-- <script>
-        flatpickr(".js-date", {});
-    </script> -->
 
 </body>
 
